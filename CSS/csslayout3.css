@@ -1,0 +1,109 @@
+body{
+    margin:0;
+    padding:0;
+}
+p{
+color:white
+}
+.main{
+    height: 720px;
+    width:1200px;
+    background: black;
+    margin: auto;
+    border: 2px solid green;
+}
+.head{
+    height: 200px;
+    width: 1200px;
+    background:gainsboro;
+
+}
+.logo{
+    height:200px;
+    width: 300px;
+    background: black;
+    float:left;
+}
+.logo img{
+    height:200px;
+    width:300px
+}
+.social{
+    height: 150px;
+    width: 900px; 
+    float: left;
+    background: white;
+}
+.social img{
+    height: 150px;
+    width: 900px; 
+}
+.navigation{
+    height:50px;
+    width: 900px;
+    float: left;
+    background: black;
+}
+.navigation ul li{
+    float:left;
+    display: block;
+    text-align: center;
+    color: white;
+    height: 10px;
+    width:200px;
+}
+.container{
+    height:400px;
+    width: 1200px;
+    background: black;
+}
+.box1{
+height: 200px;
+width: 280px;
+background:black;
+float: left;
+
+}
+.box1 img{
+    height:190px;
+    width:270px;
+}
+.box2{
+height: 200px;
+width:280px;
+background:black;
+float: left;
+}
+.box2 img{
+    height:190px;
+    width:270px;
+}
+.box3{
+height: 200px;
+width: 280px;
+background:black;
+float: left;
+
+}
+.box3 img{
+    height:190px;
+    width:280px;
+}
+.sidebar{
+    height:400px;
+    width:360px;
+    background:black;
+    float: left;
+}
+
+.form{
+    position: absolute;
+    top:200px;
+    left: 1000px;
+    color: white;
+}
+.footer{
+    height: 120px;
+    width: 1200px;
+    background:gray;
+}

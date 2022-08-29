@@ -1,0 +1,149 @@
+/*{
+    margin:0;
+    padding:0;
+    font-family: 'DynaPuff', cursive;
+}
+.header{
+    min-height: 100vh;
+    min-width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(universityimage.jpg);
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+nav{
+    display: flex;
+    padding: 3% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+width:150px;
+}
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display:inline-block;
+    padding:40px 50px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:white;
+    text-decoration: solid;
+    font-size: 30px;
+}
+.nav-links ul li::after{
+    content: "";
+    width:0%;
+    height:2px;
+    background:red;
+    display:block;
+    margin:auto;
+    transition:0.5s;
+}
+.nav-links ul li:hover::after{
+    width:100%
+}
+.text-box{
+width:90%;
+color:white;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+text-align: center;
+word-spacing:0.2cm;
+}
+h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40;
+    font-size: 14px;
+    color: white;
+
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: aqua;
+    border: 1px solid;
+    padding: 15px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor:pointer;
+    margin: 25px;
+}
+.hero-btn:hover{
+    border: 1px solid green;
+background: purple;
+transition:1s;
+}*/
+.one{
+    background-color: violet;
+    height: 100px;
+    width:100px;
+    position: absolute;
+    top:10px;
+    left:200px;
+}
+.two{
+    background-color: blue;
+    height: 100px;
+    width:100px;
+    position: absolute;
+    bottom:300px;
+    left:200px;
+}
+.three{
+    background-color: green;
+    height: 100px;
+    width:100px;
+    position: absolute;
+    bottom:20px;
+    left:200px;
+}
+.four{
+    background-color: green;
+    height: 100px;
+    width:100px;
+    position: absolute;
+    bottom:200px;
+    left:200px;
+}
+.five{
+    background-color: green;
+    height: 100px;
+    width:100px;
+    position: absolute;
+    bottom:400px;
+    left:200px;
+}
+.six{
+    background-color: green;
+    height: 100px;
+    width:100px;
+    position: absolute;
+    bottom:500px;
+    left:200px;
+}
+.seven{
+    background-color: green;
+    height: 100px;
+    width:100px;
+    position: absolute;
+    bottom:400px;
+    right:800px;
+}
+.eight{
+    background-color: green;
+    height: 100px;
+    width:100px;
+    position: absolute;
+    bottom:20px;
+    right:800px;
+}

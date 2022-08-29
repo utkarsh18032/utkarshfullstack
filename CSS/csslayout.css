@@ -1,0 +1,106 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+.layout{
+    height: 1000px;
+    width: 700px;
+    background: aqua;
+    margin: auto;
+    border: 2px solid black;
+}
+.header{
+    height: 200px;
+    width:700px;
+    background: rgb(152, 223, 251);
+
+    }
+.logo{
+height: 200px;
+width: 200px;
+background:blue;
+float: left;
+}
+.socialmedia{
+height: 100px;
+width: 500px;
+float: left;
+}
+.socialmedia img{
+    height:100px;
+    width: 500px;
+}
+.menu{
+    height: 100px;
+width: 500px;
+background:whitesmoke;
+float:left;
+font-size:20px;
+}
+.menu ul li{
+float: left;
+display: inline-block;
+width: 100px;
+height:50px;
+margin-top: 25px;
+margin-left: 10px;
+text-align: center;
+background:yellow;
+color:blue;
+border:solid green;
+}
+.menu ul li::after{
+    content: "";
+    width:0%;
+    border: none;
+    height:5px;
+    background: transparent;
+    display:block;
+    margin:auto;
+    transition:0.7s;
+}
+.menu ul li:hover::after{
+    width:75%;
+    background: purple;
+    border: 1px solid black;
+
+}
+
+.container{
+    height: 600px;
+    width: 700px;
+    background: paleturquoise;
+}
+.carasoul{
+    height: 300px;
+    width: 700px;
+    background:whitesmoke;
+}
+.carasoul img{
+    height: 300px;
+    width: 700px;
+}
+.gallary{
+    height: 300px;
+    width: 700px;
+    background: paleturquoise;
+}
+.product{
+    height: 290px;
+    width: 164px;
+    background:whitesmoke;
+    float: left;
+    margin:3px;
+    border:2px solid green;
+    text-align: center;
+}
+.product img{
+    height: 200px;
+    width: 164px;
+}
+
+.footer{
+    height: 200px;
+    width:700px;
+    background: gray;
+}
